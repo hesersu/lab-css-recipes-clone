@@ -33,26 +33,55 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+p {
+  font-size: 1.5em;
+  margin: 50px 75px 30px 75px;
+  line-height: 1.5em;
+}
 
 h1 {
-  text-align: center;
   font-size: 5em;
+  text-align: center;
+  color: rgb(255, 255, 255);
   font-weight: 400;
-  color: white;
-  padding: 300px;
+  padding: 200px;
   background-image: url(../images/apple-pie.jpg);
   background-size: cover;
 }
 
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+}
+
+.ingridients {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 11%;
+}
+
 h2 {
-  padding: 20px;
+  font-weight: normal;
+  margin-left: 75px;
+  margin: 25px 75px 25px 75px;
 }
 
-p {
-  margin: 20px;
+hr {
+  margin: 10px 75px 10px 75px;
 }
 
-ol,
+ol {
+  margin: 15px 75px 50px 100px;
+  line-height: 1.5em;
+}
+
 ul {
-  margin-left: 100px;
+  margin: 15px 75px 15px 100px;
+  line-height: 1.5em;
+  list-style-type: " - ";
 }
